@@ -3,7 +3,7 @@ from langchain_community.embeddings import HuggingFaceEmbeddings
 _embeddings = None 
 
 def get_embeddings():
-    global embeddings 
+    global _embeddings 
     if _embeddings is None:
         print("Loading HuggingFaceEmbeddings model...")
         _embeddings = HuggingFaceEmbeddings(
