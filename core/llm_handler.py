@@ -16,9 +16,9 @@ Answer : """
 
 def get_qa_chain():
     llm = ChatGoogleGenerativeAI(
-        model="gemini-1.5-pro",
+        model="gemini-1.5-pro-latest",
         temperature=0.2,
-        google_api_key=os.getenv("GOOGLE_API_KEY")
+        google_api_key=os.getenv("GEMINI_API_KEY")
     )
     prompt = PromptTemplate(
         template = PROMPT_TEMPLATE,
