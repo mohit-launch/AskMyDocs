@@ -1,11 +1,15 @@
 import sys
+import os
 from annotated_types import doc
 from dotenv import load_dotenv
+
+load_dotenv()
+print("API KEY FOUND:", bool(os.getenv("GEMINI_API_KEY")))
+
 from core.processor import load_and_chunk
 from core.vector_store import store_chunks
 from core.llm_handler import get_qa_chain
 
-load_dotenv()
 
 def ingest():
     chunks = load_and_chunk("data")
