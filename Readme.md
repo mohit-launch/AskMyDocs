@@ -4,7 +4,7 @@
 
 ![Python](https://img.shields.io/badge/python-3.9+-blue.svg)
 [![LangChain](https://img.shields.io/badge/🦜🔗_LangChain-Docs-blue.svg)](https://python.langchain.com/docs/get_started/introduction)
-[![GitHub stars](https://img.shields.io/github/stars/mohit-launch/askmydocs.svg?style=social&label=Star)](https://github.com/mohit-launch/askmydocs)
+[![GitHub stars](https://img.shields.io/github/stars/mohit-launch/askmydocs.svg?style=social&label=Star&t=1)](https://github.com/mohit-launch/askmydocs)
 [![GitHub issues](https://img.shields.io/github/issues/mohit-launch/askmydocs.svg)](https://github.com/mohit-launch/askmydocs/issues)
 [![License](https://img.shields.io/github/license/mohit-launch/askmydocs.svg)](https://github.com/mohit-launch/askmydocs/blob/main/LICENSE)
 
