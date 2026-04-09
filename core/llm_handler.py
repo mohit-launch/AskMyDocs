@@ -16,8 +16,12 @@ Answer : """
 
 def get_qa_chain():
     llm = ChatGoogleGenerativeAI(
-        model="gemini-1.5-pro-latest",
+        model="gemini-2.5-flash",
         temperature=0.2,
+        max_tokens=None,
+        timeout=None,
+        max_retries=2,
+        
         google_api_key=os.getenv("GEMINI_API_KEY")
     )
     prompt = PromptTemplate(
