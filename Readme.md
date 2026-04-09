@@ -3,9 +3,10 @@
 > *"I read your PDFs so you don't have to. You're welcome."*
 
 ![Python](https://img.shields.io/badge/python-3.9+-blue.svg)
-![Gemini API](https://img.shields.io/badge/AI-Google_Gemini-orange.svg)
-![ChromaDB](https://img.shields.io/badge/Database-ChromaDB-lightgrey.svg)
-![License](https://img.shields.io/badge/MIT_LICENSE.svg)
+[![LangChain](https://img.shields.io/badge/🦜🔗_LangChain-Docs-blue.svg)](https://python.langchain.com/docs/get_started/introduction)
+[![GitHub stars](https://img.shields.io/github/stars/mohit-launch/askmydocs.svg?style=social&label=Star)](https://github.com/mohit-launch/askmydocs)
+[![GitHub issues](https://img.shields.io/github/issues/mohit-launch/askmydocs.svg)](https://github.com/mohit-launch/askmydocs/issues)
+[![License](https://img.shields.io/github/license/mohit-launch/askmydocs.svg)](https://github.com/mohit-launch/askmydocs/blob/main/LICENSE)
 
 AskMyDocs is a delightfully straightforward RAG (Retrieval-Augmented Generation) application that lets you interrogate your PDF documents. Toss your PDFs into a folder, ask questions, and get answers based **strictly** on what's in your docs. No hallucinations, no made-up nonsense, just the facts as written.
 
