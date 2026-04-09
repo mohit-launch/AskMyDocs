@@ -5,7 +5,7 @@
 ![Python](https://img.shields.io/badge/python-3.9+-blue.svg)
 ![Gemini API](https://img.shields.io/badge/AI-Google_Gemini-orange.svg)
 ![ChromaDB](https://img.shields.io/badge/Database-ChromaDB-lightgrey.svg)
-![License](https://img.shields.io/badge/License-Do_Whatever-green.svg)
+![License](https://img.shields.io/badge/MIT_LICENSE.svg)
 
 AskMyDocs is a delightfully straightforward RAG (Retrieval-Augmented Generation) application that lets you interrogate your PDF documents. Toss your PDFs into a folder, ask questions, and get answers based **strictly** on what's in your docs. No hallucinations, no made-up nonsense, just the facts as written.
 
